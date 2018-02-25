@@ -6,18 +6,18 @@ function alertFunction(){
 	alert("Nice")
 }
 
-
 function vaporWave(){
 	var bodyStyle = document.body.style;
+	var btnSomethingStyle = btnSomething.style;
+
+    var audio = new Audio('files/macintoshplus.mp3');
+    audio.play();
 
 	bodyStyle.backgroundColor = "#f000f0";
-	bodyStyle.fontFamily = "";
+	bodyStyle.fontFamily = "VCR";
 
-	btnSomething.style.backgroundColor = "#ffffff";
+	btnSomethingStyle.backgroundColor = "#ffffff";
+	btnSomethingStyle.fontFamily = "VCR";
 
-
-	alertFunction();
+	//alertFunction();
 }
-
-
-
